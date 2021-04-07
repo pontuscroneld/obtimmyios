@@ -13,6 +13,10 @@
 		14640B8E261CB191006E4A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14640B8C261CB191006E4A07 /* Main.storyboard */; };
 		14640B90261CB193006E4A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14640B8F261CB193006E4A07 /* Assets.xcassets */; };
 		14640B93261CB193006E4A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14640B91261CB193006E4A07 /* LaunchScreen.storyboard */; };
+		14640B9C261CB1C1006E4A07 /* ShiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14640B9B261CB1C1006E4A07 /* ShiftVC.swift */; };
+		14640B9F261CB1F1006E4A07 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14640B9E261CB1F1006E4A07 /* Shift.swift */; };
+		14640BA2261CB2E9006E4A07 /* ShiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14640BA1261CB2E9006E4A07 /* ShiftCell.swift */; };
+		14640BA5261CB47D006E4A07 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14640BA4261CB47D006E4A07 /* SelfConfiguringCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		14640B8F261CB193006E4A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14640B92261CB193006E4A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14640B94261CB193006E4A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14640B9B261CB1C1006E4A07 /* ShiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftVC.swift; sourceTree = "<group>"; };
+		14640B9E261CB1F1006E4A07 /* Shift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		14640BA1261CB2E9006E4A07 /* ShiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftCell.swift; sourceTree = "<group>"; };
+		14640BA4261CB47D006E4A07 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				14640B8F261CB193006E4A07 /* Assets.xcassets */,
 				14640B91261CB193006E4A07 /* LaunchScreen.storyboard */,
 				14640B94261CB193006E4A07 /* Info.plist */,
+				14640B9B261CB1C1006E4A07 /* ShiftVC.swift */,
+				14640B9E261CB1F1006E4A07 /* Shift.swift */,
+				14640BA1261CB2E9006E4A07 /* ShiftCell.swift */,
+				14640BA4261CB47D006E4A07 /* SelfConfiguringCell.swift */,
 			);
 			path = obTimmy2;
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14640BA5261CB47D006E4A07 /* SelfConfiguringCell.swift in Sources */,
+				14640BA2261CB2E9006E4A07 /* ShiftCell.swift in Sources */,
 				14640B8B261CB191006E4A07 /* ViewController.swift in Sources */,
 				14640B87261CB191006E4A07 /* AppDelegate.swift in Sources */,
 				14640B89261CB191006E4A07 /* SceneDelegate.swift in Sources */,
+				14640B9C261CB1C1006E4A07 /* ShiftVC.swift in Sources */,
+				14640B9F261CB1F1006E4A07 /* Shift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
